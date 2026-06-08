@@ -35,7 +35,6 @@ Thumbs.db
 # =========================
 # YOLO / ML models
 # =========================
-*.pt
 *.pth
 *.onnx
 *.engine
