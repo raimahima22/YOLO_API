@@ -120,3 +120,7 @@ async def root():
         "docs_url": "/docs",
         "usage": "POST image to /predict"
     }
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
